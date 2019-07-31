@@ -1,0 +1,137 @@
+Constructing empty BST
+BST is empty
+
+Inorder Traversal of BST:
+
+Preorder Traversal of BST:
+
+Postorder Traversal of BST:
+
+BST height is : 0
+BST # of nodes is : 0
+BST # of leaves is : 0
+
+Now insert a bunch of integers into the BST.
+Try items not in the BST and some that are in it:
+
+Item to insert (-999 to stop): 60
+
+BST height is : 1
+BST # of nodes is : 1
+BST # of leaves is : 1
+Item to insert (-999 to stop): 20
+
+BST height is : 2
+BST # of nodes is : 2
+BST # of leaves is : 1
+Item to insert (-999 to stop): 70
+
+BST height is : 2
+BST # of nodes is : 3
+BST # of leaves is : 2
+Item to insert (-999 to stop): 40
+
+BST height is : 3
+BST # of nodes is : 4
+BST # of leaves is : 2
+Item to insert (-999 to stop): 10
+
+BST height is : 3
+BST # of nodes is : 5
+BST # of leaves is : 3
+Item to insert (-999 to stop): 50
+
+BST height is : 4
+BST # of nodes is : 6
+BST # of leaves is : 3
+Item to insert (-999 to stop): 30
+
+BST height is : 4
+BST # of nodes is : 7
+BST # of leaves is : 4
+Item to insert (-999 to stop): 30
+
+  ERROR: Number Already In Tree
+
+BST height is : 4
+BST # of nodes is : 7
+BST # of leaves is : 4
+Item to insert (-999 to stop): -999
+
+        70
+ 60
+                        50
+                40
+                        30
+        20
+                10
+
+BST is not empty
+Inorder Traversal of BST:
+10  20  30  40  50  60  70
+
+Preorder Traversal of BST:
+60  20  10  40  30  50  70
+
+Postorder Traversal of BST:
+10  30  50  40  20  70  60
+
+
+Now testing the contains() operation.
+Try both items in the BST and some not in it:
+Item to find (-999 to stop): 30
+Found
+Item to find (-999 to stop): 45
+Not found
+Item to find (-999 to stop): -999
+
+Now testing the remove() operation.
+Try both items in the BST and some not in it:
+
+Item to remove (-999 to stop): 40
+        70
+ 60
+                50
+                        30
+        20
+                10
+
+Item to remove (-999 to stop): 20
+        70
+ 60
+                50
+        30
+                10
+
+Item to remove (-999 to stop): 60
+ 70
+                50
+        30
+                10
+
+Item to remove (-999 to stop): 45
+
+  ERROR: Item Not Found
+
+ 70
+                50
+        30
+                10
+
+Item to remove (-999 to stop): -999
+
+Inorder Traversal of BST:
+10  30  50  70
+
+Preorder Traversal of BST:
+70  30  10  50
+
+Postorder Traversal of BST:
+10  50  30  70
+
+BST height is : 3
+BST # of nodes is : 4
+BST # of leaves is : 1
+--------------------------------
+Process exited after 192.8 seconds with return value 0
+Press any key to continue . . .
